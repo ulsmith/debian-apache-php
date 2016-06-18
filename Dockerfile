@@ -12,6 +12,8 @@ RUN apt-get update && \
 		php5-curl \
 		php5-json \
 		php5-odbc \
+		php5-sqlite \
+		php5-mysql \
 		php5-mcrypt && \
 	apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /var/cache/apt/archive/*.deb
